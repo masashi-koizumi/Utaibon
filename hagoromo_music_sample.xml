@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ja">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>羽衣（観世流昭和版　内廿一）</title>
+        <author>廿四世　観世左近</author>
+        <respStmt>
+          <resp>TEIに準拠したデジタル化</resp>
+          <name>小泉暢</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>小泉暢</publisher>
+        <availability>
+          <p>観世流昭和版は著作権の保護期間が満了しているため、自由に利用が可能。</p>
+        </availability>
+      </publicationStmt>
+      <!--<seriesStmt></seriesStmt>-->
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>弓八幡・鉢木・羽衣・道成寺・龍虎（観世流昭和版　内廿一）</title>
+            <author>廿四　観世左近</author>
+            <imprint>
+              <pubPlace>東京市神田区</pubPlace>
+              <publisher>檜書店</publisher>
+              <date when="1934-04-15">昭和9年（1934年）</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <!--<encodingDesc></encodingDesc>-->
+    <!--<profileDesc></profileDesc>-->
+    <revisionDesc>
+      <change when="2026-02-08">TEIに準拠した詞章データを作成開始</change>
+      <change when="2026-02-08">先行して作成した独自形式の楽譜データから、TEIに準拠した楽譜データを作成開始</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front><!--TEI 7.1 Front and Back Matter, TEI by Example Module5: Drama-->
+      <castList>
+        <castItem>
+          <role xml:id="shite">シテ</role>
+          <roleDesc>天人</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="waki">ワキ</role>
+          <roleDesc>漁夫白龍</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="wakitsure">ワキツレ二人</role>
+          <roleDesc>漁夫</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="jiutai">地謡</role>
+        </castItem>
+      </castList>
+    </front>
+    <body style="writing-mode: vertical-rl;">
+      <div type="ba" xml:id="ba_1">
+        <note type="ba">一場物</note><!--TEI 3.9 Notes, Annotation, and Indexing-->
+        <!--段1-->
+        <div type="dan" xml:id="dan_1">
+          <note type="dan">ワキとワキツレの登場。</note>
+          <div type="shodan" subtype="hayashi" xml:id="shodan_1">
+            <head type="shodan"/>
+            <note type="shodan">囃子事〔一声〕の省略</note>
+          </div>
+          <div type="shodan" subtype="utai" xml:id="shodan_2">
+            <head type="shodan">一セイ</head>
+            <head type="gingata">ツヨク</head>
+            <head type="norigata">拍子ニ合ハズ</head>
+            <note type="gingata">ツヨ吟</note>
+            <note type="norigata">詠ノリ</note>
+            <div type="setsu" xml:id="setsu_1">
+              <head type="shijigo">確カリサラリト</head>
+              <sp who="#waki #wakitsure">
+                <speaker>ワキ漁夫・ワキツレ二人</speaker>
+                <l xml:id="ku_1"><!--韻文, TEI by Example Module5: Drama, 歌を<l>で区切る aozora_tei/51307_tei.xml-->
+                  <metamark target="fushi"><!--TEI 3.5.3 Additions, Deletions, and Omissions-->
+                    <g>庵点</g><!--フォントが無いものは<g>外字とする-->
+                  </metamark><!--↑metamark@targetは本来は特定の箇所を指定する-->
+                  <seg type="kami-hanku" xml:id="hanku_1">
+                  <!--中略-->
+                  </seg>
+                </l>
+                <l xml:id="ku_2"><!--韻文, TEI by Example Module5: Drama, 歌を<l>で区切る aozora_tei/51307_tei.xml-->
+                  <seg type="kami-hanku" xml:id="hanku_2">
+                    <seg type="hyoki" xml:id="hyoki_5">
+                      <c>三</c>
+                      <seg type="ji" xml:id="ji_8">
+                        <c>み</c>
+                        <metamark target="fushi" function="tsuyo-gin">
+                          <g>振リ</g><!--ゴマはヨワ吟・ツヨ吟共通のため書き分けず、属性で区別-->
+                        </metamark>
+                        <note type="shihai-on_tsuyo">上音</note>
+                        <note type="onko_tsuyo">上音(上音・中音)</note>
+                      </seg>
+                      <seg type="umiji" xml:id="ji_9">
+                        <c>ー</c>
+                        <note type="shihai-on_tsuyo">上音</note>
+                        <note type="onko_tsuyo">上音(上音・中音)</note>
+                      </seg>
+                    </seg>
+                    <seg type="hyoki" xml:id="hyoki_6">
+                      <c>保</c>
+                      <seg type="ji" xml:id="ji_10">
+                        <c>お</c>
+                        <metamark target="fushi" function="tsuyo-gin">
+                          <g>入廻シ</g><!--ゴマはヨワ吟・ツヨ吟共通のため書き分けず、属性で区別-->
+                        </metamark>
+                        <note type="shihai-on_tsuyo">上音</note>
+                        <note type="onko_tsuyo">頭クリ上音(上音・中音)</note>
+                      </seg>
+                      <seg type="umiji" xml:id="ji_11">
+                        <c>お</c>
+                        <note type="shihai-on_tsuyo">上音</note>
+                        <note type="onko_tsuyo">突き上げ上音(上音・中音)</note>
+                      </seg>
+                    </seg>
+                    <!--後略-->
+                  </seg>
+                </l>
+              </sp>
+            </div>
+          </div>
+        </div>
+        <!--段4-->
+        <div type="dan" xml:id="dan_4"><!--TEI 3.9.2.1 Pre-existing Indexes-->
+          <note type="dan">ワキとシテの問答。シテはワキから羽衣を貰い〔物着〕。</note>
+          <div type="shodan" subtype="utai" xml:id="shodan_13">
+            <head type="shodan">詞</head>
+            <head type="gingata"/><!--TEI 4.2.1 Headings and Trailers-->
+            <head type="norigata"/>
+            <note type="gingata">不定吟</note>
+            <note type="norigata">サシノリ</note>
+            <div type="setsu">
+              <note type="setsu">節の階層なし</note>
+              <!--中略-->
+              <head type="shijigo">カヽリメニ</head>
+              <sp who="#shite"><!--TEI 7.2.2 Speeches and Speakers, TEI by Example Module5: Drama-->
+                <speaker>シテ</speaker>
+                <p xml:id="ku_undecided_1"><!--散文, TEI by Example Module5: Drama, 1つまたは複数の文 aozora_tei/1126_tei.xml-->
+                  <metamark target="kotoba"><!--TEI 3.5.3 Additions, Deletions, and Omissions-->
+                    <g>庵点</g><!--フォントが無いものは<g>外字とする-->
+                  </metamark><!--↑metamark@targetは本来は特定の箇所を指定する-->
+                  いや
+                  <ruby><!--TEI 3.4.2 Ruby Annotations-->
+                    <rb>疑</rb>
+                    <rt place="right">うたが</rt><!--楽譜データは平仮名に統一-->
+                  </ruby>
+                  <ruby>
+                    <rb>ひは</rb>
+                    <rt place="left">いわ</rt>
+                  </ruby><!--↓漢文の訓点 古典籍TEI作成要領-->
+                  <metamark target="kotoba"><!--TEI 3.5.3 Additions, Deletions, and Omissions-->
+                    <g>ヒラキ</g><!--フォントが無いものは<g>外字とする-->
+                  </metamark><!--↑metamark@targetは本来は特定の箇所を指定する-->
+                  人゛間にあり。
+                </p>
+                <p xml:id="ku_undecided_2">
+                  <ruby>
+                    <rb>天</rb>
+                    <rt place="right">てん</rt>
+                  </ruby>
+                  に
+                  <ruby>
+                    <rb>偽</rb>
+                    <rt place="right">いつわ</rt>
+                  </ruby>
+                  り
+                  <metamark target="kotoba">
+                    <g>ヒラキ</g>
+                  </metamark>
+                  なきものを
+                </p>
+              </sp>
+              <!--中略-->
+            </div>
+          </div>
+        </div>
+        <!--段5-->
+        <div type="dan" xml:id="dan_5">
+          <note type="dan">シテの舞い［クセ］。</note>
+          <div type="shodan" subtype="utai" xml:id="shodan_19">
+            <head type="shodan">クセ</head>
+            <head type="gingata"/>
+            <head type="norigata">拍子ニ合</head>
+            <note type="gingata">ヨワ吟</note>
+            <note type="norigata">平ノリ</note>
+            <div type="setsu" xml:id="setsu_undecided_1">
+              <head type="shijigo">閑カニ優美ニ</head>
+              <sp who="#jiutai">
+                <speaker>地謡</speaker>
+                <l xml:id="ku_undecided_3"><!--韻文, TEI by Example Module5: Drama, 歌を<l>で区切る aozora_tei/51307_tei.xml-->
+                  <metamark target="fushi" function="utaidashi"><!--↑詞章は記載しない-->
+                    <c>ヤ</c>
+                  </metamark><!--metamark@functionは本来は記号の機能を示す-->
+                  <metamark target="fushi" function="shutton">
+                    <g>下</g>
+                  </metamark>
+                  <seg type="kami-hanku" xml:id="hanku_undecided_1">
+                    <seg type="hyoki" xml:id="hyoki_undecided_1">
+                      <c>春</c>
+                      <seg type="ji" xml:id="ji_undecided_1">
+                        <c>は</c>
+                        <metamark target="fushi" function="yowa-gin">
+                          <g>落シ</g><!--ゴマはヨワ吟・ツヨ吟共通のため書き分けず、属性で区別-->
+                        </metamark>
+                        <note type="shihai-on_yowa">下音</note>
+                        <note type="onko_yowa">呂音</note>
+                      </seg>
+                      <seg type="ji" xml:id="ji_undecided_2">
+                        <c>る</c>
+                        <metamark target="fushi" function="yowa-gin">
+                          <g>平ゴマ</g>
+                        </metamark>
+                        <note type="shihai-on_yowa">下音</note>
+                        <note type="onko_yowa">下音</note>
+                      </seg>
+                    </seg>
+                    <!--後略-->
+                  </seg>
+                </l>
+              </sp>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

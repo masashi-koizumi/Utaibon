@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ja">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>羽衣（観世流昭和版　内廿一）</title>
+        <author>廿四世　観世左近</author>
+        <respStmt>
+          <resp>TEIに準拠したデジタル化</resp>
+          <name>小泉暢</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>小泉暢</publisher>
+        <availability>
+          <p>観世流昭和版は著作権の保護期間が満了しているため、自由に利用が可能。</p>
+        </availability>
+      </publicationStmt>
+      <!--<seriesStmt></seriesStmt>-->
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>弓八幡・鉢木・羽衣・道成寺・龍虎（観世流昭和版　内廿一）</title>
+            <author>廿四世　観世左近</author>
+            <imprint>
+              <pubPlace>東京市神田区</pubPlace>
+              <publisher>檜書店</publisher>
+              <date when="1934-04-15">昭和9年（1934年）</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <!--<encodingDesc></encodingDesc>-->
+    <!--<profileDesc></profileDesc>-->
+    <revisionDesc>
+      <change when="2026-02-08">TEIに準拠した詞章データを作成開始</change>
+      <change when="2026-02-08">先行して作成した独自形式の楽譜データから、TEIに準拠した楽譜データを作成開始</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front><!--TEI 7.1 Front and Back Matter, TEI by Example Module5: Drama-->
+      <castList>
+        <castItem>
+          <role xml:id="shite">シテ</role>
+          <roleDesc>天人</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="waki">ワキ</role>
+          <roleDesc>漁夫白龍</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="wakitsure">ワキツレ二人</role>
+          <roleDesc>漁夫</roleDesc>
+        </castItem>
+        <castItem>
+          <role xml:id="jiutai">地謡</role>
+        </castItem>
+      </castList>
+    </front>
+    <body style="writing-mode: vertical-rl;">
+      <div type="ba" xml:id="ba_1">
+        <note type="ba">一場物</note><!--TEI 3.9 Notes, Annotation, and Indexing-->
+        <!--段1-->
+        <div type="dan" xml:id="dan_1">
+          <note type="dan">ワキとワキツレの登場。</note>
+          <div type="shodan" subtype="hayashi" xml:id="shodan_1">
+            <head type="shodan"/>
+            <note type="shodan">囃子事〔一声〕の省略</note>
+          </div>
+          <div type="shodan" subtype="utai" xml:id="shodan_2">
+            <head type="shodan">一セイ</head>
+            <div type="setsu" xml:id="setsu_1">
+              <sp who="#waki #wakitsure">
+                <speaker>ワキ漁夫・ワキツレ二人</speaker>
+                <l xml:id="ku_1"><!--韻文, TEI by Example Module5: Drama, aozora_tei/51307_tei.xml-->
+                  <ruby>
+                    <rb>風早</rb>
+                    <rt place="right">カザハヤ</rt>
+                  </ruby>
+                  の。
+                </l>    
+                <l xml:id="ku_2">
+                  <ruby>
+                    <rb>三</rb>
+                    <rt place="right">ミ</rt>
+                  </ruby>
+                  <ruby>
+                    <rb>保</rb>
+                    <rt place="right">ホ</rt>
+                    <rt place="left">オ</rt>
+                  </ruby>
+                  の
+                  <ruby>
+                    <rb>浦</rb>
+                    <rt place="right">ウラ</rt>
+                  </ruby>
+                  わを
+                  <ruby>
+                    <rb>漕</rb>
+                    <rt place="right">コ</rt>
+                  </ruby>
+                  ぐ舟の。
+                </l>
+              </sp>
+              <!--後略-->
+            </div>
+          </div>
+        </div>
+        <!--段4-->
+        <div type="dan" xml:id="dan_4"><!--TEI 3.9.2.1 Pre-existing Indexes-->
+          <note type="dan">ワキとシテの問答。シテはワキから羽衣を貰い〔物着〕。</note>
+          <div type="shodan" subtype="utai" xml:id="shodan_13">
+            <head type="shodan">詞</head>
+            <div type="setsu">
+              <note type="setsu">節の階層なし</note>
+              <!--中略-->
+              <sp who="#shite"><!--TEI 7.2.2 Speeches and Speakers, TEI by Example Module5: Drama-->
+                <speaker>シテ</speaker>
+                <p xml:id="ku_undecided_1"><!--散文, TEI by Example Module5: Drama, aozora_tei/1126_tei.xml-->
+                  いや
+                  <ruby><!--TEI 3.4.2 Ruby Annotations-->
+                    <rb>疑</rb>
+                    <rt place="right">ウタガ</rt>
+                  </ruby>
+                  <ruby>
+                    <rb>ひは</rb>
+                    <rt place="left">イワ</rt>
+                  </ruby>
+                  人゛間にあり。
+                </p>
+                <p xml:id="ku_undecided_2">
+                  <ruby>
+                    <rb>天</rb>
+                    <rt place="right">テン</rt>
+                  </ruby>
+                  に
+                  <ruby>
+                    <rb>偽</rb>
+                    <rt place="right">イツハ</rt>
+                    <rt place="left">ワ</rt>
+                  </ruby>
+                  りなきものを
+                </p>
+              </sp>
+              <!--中略-->
+            </div>
+          </div>
+        </div>
+        <!--段5-->
+        <div type="dan" xml:id="dan_5">
+          <note type="dan">シテの舞い［クセ］。</note>
+          <div type="shodan" subtype="utai" xml:id="shodan_19">
+            <head type="shodan">クセ</head>
+            <div type="setsu" xml:id="setsu_undecided_1">
+              <sp who="#jiutai">
+                <speaker>地謡</speaker>
+                <l xml:id="ku_undecided_3">
+                  <ruby>
+                    <rb>春</rb>
+                    <rt place="right">ハル</rt>
+                  </ruby>
+                  ゛霞。
+                </l>
+              </sp>
+              <!--後略-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
